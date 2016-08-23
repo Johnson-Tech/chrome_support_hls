@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/video/index.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="video-1 video">
+            <video id="my_video_1" class="fill-width"
+                autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-2 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-3 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-4 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="video-5 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-6 video">
+            <video id="my_video_6" class="fill-width" controls
+                   autoplay loop >
+                <source src="" type="application/x-mpegURL" />
+            </video>
+        </div>
+        <div class="video-7 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="video-8 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-9 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-10 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+        <div class="video-11 video">
+            <video id="my_video_1" class="fill-width"
+                   autoplay loop >
+                <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+            </video>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+<script>
+    if(Hls.isSupported()) {
+        var video = document.getElementById('my_video_6');
+        var hls = new Hls();
+        hls.loadSource('http://www.streambox.fr/playlists/x36xhzz/x36xhzz.m3u8');
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+            video.play();
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+  .container .top {
+    width: 100%;
+    height: 33.3%; }
+    .container .top:after {
+      clear: both;
+      display: table; }
+    .container .top .video {
+      width: 25%;
+      height: 100%;
+      float: left; }
+  .container .middle {
+    width: 100%;
+    height: 33.3%; }
+    .container .middle:after {
+      clear: both;
+      display: table; }
+    .container .middle .video {
+      float: left; }
+    .container .middle .video-5, .container .middle .video-7 {
+      width: 25%;
+      height: 100%; }
+    .container .middle .video-6 {
+      width: 50%;
+      height: 100%; }
+  .container .bottom {
+    width: 100%;
+    height: 33.3%; }
+    .container .bottom:after {
+      clear: both;
+      display: table; }
+    .container .bottom .video {
+      width: 25%;
+      height: 100%;
+      float: left; }
+
+.fill-width {
+  height: 100%;
+  width: 100%;
+  object-fit: fill; }
+
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBQUEsQ0FBRTtFQUNBLFVBQVUsRUFBRSxVQUFVOztBQUd4QixVQUFXO0VBQ1QsTUFBTSxFQUFFLENBQUM7RUFDVCxPQUFPLEVBQUUsQ0FBQztFQUNWLE1BQU0sRUFBRSxJQUFJO0VBQ1osS0FBSyxFQUFFLElBQUk7O0FBR2IsVUFBVztFQUNULEtBQUssRUFBRSxJQUFJO0VBQ1gsTUFBTSxFQUFFLElBQUk7RUFFWixlQUFLO0lBQ0gsS0FBSyxFQUFFLElBQUk7SUFDWCxNQUFNLEVBQUUsS0FBSztJQUViLHFCQUFRO01BQ04sS0FBSyxFQUFFLElBQUk7TUFDWCxPQUFPLEVBQUUsS0FBSztJQUdoQixzQkFBTztNQUNMLEtBQUssRUFBRSxHQUFHO01BQ1YsTUFBTSxFQUFFLElBQUk7TUFDWixLQUFLLEVBQUUsSUFBSTtFQUtmLGtCQUFRO0lBQ04sS0FBSyxFQUFFLElBQUk7SUFDWCxNQUFNLEVBQUUsS0FBSztJQUViLHdCQUFRO01BQ04sS0FBSyxFQUFFLElBQUk7TUFDWCxPQUFPLEVBQUUsS0FBSztJQUdoQix5QkFBTztNQUNMLEtBQUssRUFBQyxJQUFJO0lBSVosd0RBQW1CO01BQ2pCLEtBQUssRUFBRSxHQUFHO01BQ1YsTUFBTSxFQUFFLElBQUk7SUFHZCwyQkFBUztNQUNQLEtBQUssRUFBRSxHQUFHO01BQ1YsTUFBTSxFQUFFLElBQUk7RUFJaEIsa0JBQVE7SUFDTixLQUFLLEVBQUUsSUFBSTtJQUNYLE1BQU0sRUFBRSxLQUFLO0lBRWIsd0JBQVE7TUFDTixLQUFLLEVBQUUsSUFBSTtNQUNYLE9BQU8sRUFBRSxLQUFLO0lBR2hCLHlCQUFPO01BQ0wsS0FBSyxFQUFFLEdBQUc7TUFDVixNQUFNLEVBQUUsSUFBSTtNQUNaLEtBQUssRUFBRSxJQUFJOztBQU1qQixXQUFZO0VBQ1YsTUFBTSxFQUFDLElBQUk7RUFDWCxLQUFLLEVBQUMsSUFBSTtFQUNWLFVBQVUsRUFBRSxJQUFJIiwic291cmNlcyI6WyJ2aWRlby9pbmRleC5zY3NzIl0sIm5hbWVzIjpbXSwiZmlsZSI6InZpZGVvL2luZGV4LmNzcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuXHJcbmh0bWwsIGJvZHkge1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAwO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLmNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIFxyXG4gIC50b3Age1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDMzLjMlO1xyXG4gICAgXHJcbiAgICAmOmFmdGVyIHtcclxuICAgICAgY2xlYXI6IGJvdGg7XHJcbiAgICAgIGRpc3BsYXk6IHRhYmxlO1xyXG4gICAgfVxyXG5cclxuICAgIC52aWRlbyB7XHJcbiAgICAgIHdpZHRoOiAyNSU7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICAgIC8vYm9yZGVyOiAxcHggc29saWQgcmVkO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgLm1pZGRsZSB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogMzMuMyU7XHJcbiAgICBcclxuICAgICY6YWZ0ZXIge1xyXG4gICAgICBjbGVhcjogYm90aDtcclxuICAgICAgZGlzcGxheTogdGFibGU7XHJcbiAgICB9XHJcbiAgICBcclxuICAgIC52aWRlbyB7XHJcbiAgICAgIGZsb2F0OmxlZnQ7XHJcbiAgICAgIC8vYm9yZGVyOiAxcHggc29saWQgcmVkO1xyXG4gICAgfVxyXG5cclxuICAgIC52aWRlby01LCAudmlkZW8tNyB7XHJcbiAgICAgIHdpZHRoOiAyNSU7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgIH1cclxuXHJcbiAgICAudmlkZW8tNiB7XHJcbiAgICAgIHdpZHRoOiA1MCU7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC5ib3R0b20ge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDMzLjMlO1xyXG5cclxuICAgICY6YWZ0ZXIge1xyXG4gICAgICBjbGVhcjogYm90aDtcclxuICAgICAgZGlzcGxheTogdGFibGU7XHJcbiAgICB9XHJcblxyXG4gICAgLnZpZGVvIHtcclxuICAgICAgd2lkdGg6IDI1JTtcclxuICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgICBmbG9hdDogbGVmdDtcclxuICAgICAgLy9ib3JkZXI6IDFweCBzb2xpZCByZWQ7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbi8vXHJcbi5maWxsLXdpZHRoIHtcclxuICBoZWlnaHQ6MTAwJTtcclxuICB3aWR0aDoxMDAlO1xyXG4gIG9iamVjdC1maXQ6IGZpbGw7XHJcbn1cclxuXHJcbiJdfQ== */
